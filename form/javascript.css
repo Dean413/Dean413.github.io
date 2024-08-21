@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: rgb(2, 46, 46);
+}
+
+label{
+    color: rgb(2, 46, 46);
+    font-weight: bold;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+fieldset{
+    width: fit-content;
+    border-width: 3px;
+    border-color: rgb(2, 46, 46);
+    border-radius: 12px;
+    border-collapse: collapse;
+    color: rgb(2, 46, 46);
+    font-weight: bolder;
+}
+
+legend{
+    text-align: center;
+    font-size: larger;
+}
+
+button{
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+footer{
+    text-align: center;
+}
+
