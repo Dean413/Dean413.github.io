@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10px; 
+    padding: 10px;
+}
+
+figure {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+
+@media (min-width: 772px) {
+
+    figure {
+        border-radius: 50%; 
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    figure:last-child {
+        grid-column: span 2; 
+    }
+}
+
+
+@media (min-width: 992px) {
+    figure {
+        border-radius: 0;
+    }
+
+    figure:nth-child(3n) {
+        grid-column: span 2; 
+    }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        scroll-behavior: auto; 
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    figure {
+        background-color: #333; 
+        color: #ffeb3b;
+        border-color: black; 
+    }
+}
