@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Photo Gallery</title>
-	<link rel="stylesheet" href="css/gallery.css">
-	<script src="js/gallery.js"></script>
+    <meta charset="UTF-8">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="js/gallery.js" defer></script>
 </head>
 <body>
-	
-	<div id = "image">
-		Hover over an image below to display here.
-	</div>
-	
-	<img class = "preview" alt = "Tiktok Logo" src = "images/tiktok.png" width="12%" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" alt = "Web logo" src = "images/weblogo3.png" width= "12%" onmouseover  = "upDate(this)" onmouseout = "unDo()"> 
-	
-	<img class = "preview" src = "images/html5logo.png" alt = "html 5 logo" width="12%" onmouseover = "upDate(this)" onmouseout = "unDo()">
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
 
+    <img class="preview" alt="Tiktok Logo" src="images/tiktok.png" width="12%" 
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         tabindex="0" onfocus="addFocus(this)" onblur="removeFocus(this)">
+         
+    <img class="preview" alt="Web logo" src="images/weblogo3.png" width="12%" 
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         tabindex="0" onfocus="addFocus(this)" onblur="removeFocus(this)">
+         
+    <img class="preview" src="images/html5logo.png" alt="html 5 logo" width="12%" 
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         tabindex="0" onfocus="addFocus(this)" onblur="removeFocus(this)">
+		 <img class="preview" alt="super mario banner" src="images/banner.png" width="12%" 
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         tabindex="0" onfocus="addFocus(this)" onblur="removeFocus(this)">
+         
+    <img class="preview" alt="super mario thumnail 1" src="images/thumb-1.png" width="12%" 
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         tabindex="0" onfocus="addFocus(this)" onblur="removeFocus(this)">
+         
+    <img class="preview" src="images/thumb-2.png" alt="super mario thumbnail 2" width="12%" 
+         onmouseover="upDate(this)" onmouseout="unDo()"
+         tabindex="0" onfocus="addFocus(this)" onblur="removeFocus(this)">
 </body>
 </html>
